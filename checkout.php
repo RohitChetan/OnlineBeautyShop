@@ -84,10 +84,6 @@ if(isset($_POST['submit'])){
 		// curl_setopt($ch, CURLOPT_HTTPHEADER,
 		// 	array("X-Api-Key:".INSTAMOJO_KEY,"X-Auth-Token:".INSTAMOJO_TOKEN)
 		// );
-		curl_setopt($ch, CURLOPT_HTTPHEADER,
-            array("X-Api-Key:test_6a1b59d8aa35bb4914939a83f48",
-                  "X-Auth-Token:test_614cde173cc3a0f873549e11d51"
-              ));
 		
 		$payload = Array(
 			'purpose' => 'Buy Product',
@@ -140,7 +136,7 @@ if(isset($_POST['submit'])){
 			 var orderTotalPrice = <?php echo $total_price; ?>;
 			 var OrderId = <?php echo $order_id; ?>;
 			 var options = {
-			"key": "rzp_test_zHhNFsppG7bIjH", // Enter the Key ID generated from the Dashboard
+			"key": "", // Enter the Key ID generated from the Dashboard
 			"amount": orderTotalPrice*100, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
 			"name": "BeautyShop",
 			"description": "productname",
