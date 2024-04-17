@@ -18,7 +18,7 @@ define('BANNER_SITE_PATH',SITE_PATH.'media/banner/');
 define('ALLPAGE_BANNER_SERVER_PATH',SERVER_PATH.'media/allpagebanner/');
 define('ALLPAGE_BANNER_SITE_PATH',SITE_PATH.'media/allpagebanner/');
 
-define('SHIPROCKET_TOKEN_EMAIL','rrohit.chetu@gmail.com');
-define('SHIPROCKET_TOKEN_PASSWORD','Shivu@#143');
+define('SHIPROCKET_TOKEN_EMAIL','emailid');
+define('SHIPROCKET_TOKEN_PASSWORD','password');
 
 ?>
